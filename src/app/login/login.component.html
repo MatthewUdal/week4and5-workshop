@@ -1,0 +1,27 @@
+<form (ngSubmit)="onSubmit()" #loginForm="ngForm">
+    <!-- Email input -->
+    <div class="row mb-4">
+      <div class="col-md-6 mx-auto"> 
+        <div data-mdb-input-init class="form-outline">
+          <input type="email" id="form2Example1" [(ngModel)]="email" name="email" class="form-control" required />
+          <label class="form-label" for="form2Example1">Email address</label>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Password input -->
+    <div class="row mb-4">
+      <div class="col-md-6 mx-auto"> 
+        <div data-mdb-input-init class="form-outline">
+          <input type="password" id="form2Example2" [(ngModel)]="password" name="password" class="form-control" required />
+          <label class="form-label" for="form2Example2">Password</label>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Submit button -->
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+    </div>  
+  </form>
+  
