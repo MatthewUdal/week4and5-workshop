@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  margin: 20px 0; 
+}
+
+img.img-fluid {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.profile-details {
+  text-align: left;
+  max-width: 600px;
+  margin-top: 20px
+}
+

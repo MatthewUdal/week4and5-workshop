@@ -1,0 +1,38 @@
+[
+    {
+        "userID": 1,
+        "username": "john_doe",
+        "birthdate": "2000-05-22",
+        "age": 23,
+        "email": "john.doe@example.com",
+        "pwd": "password123",
+        "valid": false
+    },
+    {
+        "userID": 2,
+        "username": "jane_smith",
+        "birthdate": "2003-08-07",
+        "age": 21,
+        "email": "jane.smith@example.com",
+        "pwd": "password456",
+        "valid": false
+    },
+    {
+        "userID": 3,
+        "username": "matthew_jones",
+        "birthdate": "1997-12-19",
+        "age": 26,
+        "email": "matthew.jones@example.com",
+        "pwd": "password789",
+        "valid": false
+    },
+    {
+        "userID": 4,
+        "username": "matthew_jones",
+        "birthdate": "1997-12-19",
+        "age": 26,
+        "email": "matthew",
+        "pwd": "123",
+        "valid": false
+    }
+]

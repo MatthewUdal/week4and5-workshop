@@ -1,5 +1,12 @@
 <div class="container">
-    <h2 class="text-center">Accounts Page</h2>
-    <img src="./assets/olli-the-polite-cat.jpg" class="img-fluid">
+  <h2 class="text-center">Accounts Page</h2>
+  <img src="./assets/olli-the-polite-cat.jpg" class="img-fluid w-50 h-50 ">
+  <div class="profile-details">
+    <p><strong>Username:</strong> {{ user.username }}</p>
+    <p><strong>Birthdate:</strong> {{ user.birthdate }}</p>
+    <p><strong>Age:</strong> {{ user.age }}</p>
   </div>
-  
+  <button (click)="logOut()" class="btn btn-primary mt-3">
+    Log Out
+  </button>
+</div>
